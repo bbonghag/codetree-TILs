@@ -1,3 +1,3 @@
 a = 97
 b = 13
-print(a-b)
+print(str(a), ' - ', str(b), ' = ', str(a-b) )
