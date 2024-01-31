@@ -8,9 +8,10 @@
 # n.remove(min_n)
 # print(n[0])
 
-# 해설
-a,b,c = map(int, input().split())
 
+
+# 해설 - 3개의 숫자에서 나올 수 있는 경우의 수를 고려하여 조건문으로 만듬
+a,b,c = map(int, input().split())
 
 # 출력
 if a > b:
