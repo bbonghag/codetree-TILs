@@ -8,7 +8,7 @@ while True:
     count += 1
     a +=1
     
-    if 1 >= d:
+    if d <= 1:
         break
     else:
         n = d
