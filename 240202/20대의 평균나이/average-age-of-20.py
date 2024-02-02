@@ -9,6 +9,6 @@ while True:
     else:
         break
 
-n = round((age_sum/count), 3)
+n = round((age_sum/count), 2)
 
 print(f"{n:.2f}")
