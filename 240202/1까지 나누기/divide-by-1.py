@@ -16,6 +16,9 @@ while True:
 print(count)
 
 # 해설 - for문도 가능
+
+# n = int(input())
+# cnt = 0
 # for i in range(1, 101):
 #     if n <= 1:
 #         print(cnt)
@@ -25,6 +28,8 @@ print(count)
 
 
 # 해설 - 아 while에 조건을 걸면 좀 더 코드가 간단해지겠구나! 
+# n = int(input())
+# cnt = 0
 # i = 1
 # while n > 1:
 #    n //= i
