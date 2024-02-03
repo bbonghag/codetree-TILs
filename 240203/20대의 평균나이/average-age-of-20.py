@@ -12,7 +12,7 @@ while True:
         break # 특정 조건에서 while문을 끊어주지 않으면 EOFError뜸. 
 
 
-# 해설
+# 해설 - 꼭 else까지 쓸 필요없이 if 하나만으로도 충분함
 # # 변수 선언
 # sum_val = 0
 # cnt = 0
