@@ -8,6 +8,9 @@ def prime(a,b):
     for n in range(a,b+1):
         is_prime = True
 
+        if n == 1:
+            continue
+
         for i in range(2, n):
             if n % i == 0:
                 is_prime = False
