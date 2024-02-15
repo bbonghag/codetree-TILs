@@ -8,7 +8,7 @@ def process(a,o,c):
     if o == '-':
         return f'{a} - {c} = {a-c}'  
     if o == '/':
-        return f'{a} / {c} = {a/c}'
+        return f'{a} / {c} = {int(a/c)}'
     if o == '*':
         return f'{a} * {c} = {a*c}'
 
