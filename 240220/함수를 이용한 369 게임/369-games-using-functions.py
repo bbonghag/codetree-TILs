@@ -5,10 +5,9 @@ def preprocess(n):
         return True
 
 def preprocess2(n):
-    if preprocess(n):
+    if preprocess(n) or (n % 3 == 0):
         return True
-    elif n % 3 == 0:
-        return True
+
 
 
 cnt = 0
