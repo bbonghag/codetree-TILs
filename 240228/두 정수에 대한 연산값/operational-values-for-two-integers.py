@@ -10,7 +10,10 @@ def modify(a,b):
     else:
         b += 25
         a *=2 
-    print(a,b)
+    # print(a,b)
+    return a,b
 
 
-modify(a,b)
+
+n1, n2 = modify(a,b)
+print(n1, n2)
