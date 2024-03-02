@@ -1,15 +1,13 @@
 a = input()
 
 def abc(a):
-    a = list(a)
 
-    for i in a:
-        # print(a.count(i))
-        if a.count(i) > 1:
+    lang = len(a)
+    for i in range(lang):
+        if a[i] != a[0]:
             return True
-    else:
-        return False
 
+    return False
 
 
 # abc(a)
