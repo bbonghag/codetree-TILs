@@ -14,6 +14,8 @@ def check(a,b):
                 return 'Yes'
             else:
                 return 'No'
+        else:
+            return 'No'
 
 
 result = check(a,b)
