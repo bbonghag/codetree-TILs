@@ -7,9 +7,6 @@ def check(a,b):
     for idx, n in enumerate(a):
 
         if n == b[0]:
-            # print('yeeeeeeeeeeee')
-            # print(a[idx:idx+len(b)])
-            # print(b)
             if a[idx:idx+len(b)] == b:
                 return 'Yes'
             
