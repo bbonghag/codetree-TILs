@@ -5,7 +5,7 @@ def abc(a, m):
 
     m_sum = 0
     while m:
-        m_sum += a[m]
+        m_sum += a[m+1]
         if m % 2 == 0:
             m //= 2
         else:
