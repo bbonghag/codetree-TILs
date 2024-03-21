@@ -4,7 +4,7 @@ a = list(map(int, input().split()))
 def abc(a, m):
 
     m_sum = 0
-    while m > 1:
+    while m:
         m_sum += a[m]
         if m % 2 == 0:
             m //= 2
